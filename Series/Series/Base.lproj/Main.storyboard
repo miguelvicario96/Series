@@ -165,7 +165,6 @@
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
                                 <connections>
-                                    <action selector="seasonsAction:" destination="nNp-vq-EIm" eventType="touchUpInside" id="cWp-VF-zEi"/>
                                     <segue destination="8PF-Cv-9M0" kind="show" identifier="EpisodesSegue" id="ABT-Ta-ypx"/>
                                 </connections>
                             </button>

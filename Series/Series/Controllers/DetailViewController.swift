@@ -70,15 +70,10 @@ class DetailViewController: UIViewController {
         present(safariViewController, animated: true, completion: nil)
     }
     
-    @IBAction func seasonsAction(_ sender: UIButton) {
-        
-//        self.performSegue(withIdentifier: "EpisodesSegue", sender: self)
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "EpisodesSegue"{
+            let episodesView = segue.destination as? SeasonsViewController
+            episodesView?.serieId = serie?.id
+        }
     }
-    
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "EpisodesSegue"{
-//            let episodesView = segue.destination as? SeasonsViewController
-//            episodesView?.serieId = serie?.id
-//        }
-//    }
 }

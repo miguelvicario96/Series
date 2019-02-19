@@ -23,7 +23,7 @@ class SeasonsViewController: UIViewController {
         //self.tableView.dataSource = self
         
         fetchEpisodes()
-        print(episodes)
+        print("Serie ID: \(serieId)")
     }
     
     func fetchEpisodes() {
