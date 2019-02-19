@@ -13,25 +13,24 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var cellImage: UIImageView!
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
-    let seriesService = SeriesService()
-    var imageUrl: String!
+    let seriesService = SeriesService() //Service
+    var imageUrl: String!   //Var for passing data
     
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        self.contentView.layer.cornerRadius = 10
+        self.contentView.layer.cornerRadius = 10    //Cell configuration
         self.contentView.layer.masksToBounds = true
     }
     
-    override func prepareForReuse() {
+    override func prepareForReuse() {   //Spinner
         super.prepareForReuse()
         spinner.startAnimating()
         spinner.isHidden = false
     }
     
-    
     func setData(with urlImage: String) {
-        seriesService.getImage(urlString: urlImage) { (image) in
+        seriesService.getImage(urlString: urlImage) { (image) in    //Data -> Image
             guard let image = image, urlImage == self.imageUrl else {return}
             self.cellImage.image = image
             self.spinner.stopAnimating()

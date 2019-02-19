@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SeriesService {
+class SeriesService {   //Services for the data fetching
     
     let baseURLString = "https://api.tvmaze.com"
     let jsonDecoder = JSONDecoder()

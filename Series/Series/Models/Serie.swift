@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Serie: Codable {
+struct Serie: Codable { //Model for Serie 
     
     let id: Int
     let imageURL: ImageURL?

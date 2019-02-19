@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE2CF2CE221C6D2100B40EE4 /* EpisodesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2CF2CC221C6D2100B40EE4 /* EpisodesTableViewCell.swift */; };
+		EE2CF2CF221C6D2100B40EE4 /* EpisodesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2CF2CD221C6D2100B40EE4 /* EpisodesTableViewCell.xib */; };
 		EE4AFB2C221A020B00536FC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4AFB2B221A020B00536FC5 /* AppDelegate.swift */; };
 		EE4AFB2E221A020B00536FC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4AFB2D221A020B00536FC5 /* ViewController.swift */; };
 		EE4AFB31221A020B00536FC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4AFB2F221A020B00536FC5 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE2CF2CC221C6D2100B40EE4 /* EpisodesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesTableViewCell.swift; sourceTree = "<group>"; };
+		EE2CF2CD221C6D2100B40EE4 /* EpisodesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodesTableViewCell.xib; sourceTree = "<group>"; };
 		EE4AFB28221A020B00536FC5 /* Series.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Series.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE4AFB2B221A020B00536FC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE4AFB2D221A020B00536FC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 			children = (
 				EE4AFB49221A13B400536FC5 /* CollectionViewCell.swift */,
 				EE4AFB4A221A13B400536FC5 /* CollectionViewCell.xib */,
+				EE2CF2CC221C6D2100B40EE4 /* EpisodesTableViewCell.swift */,
+				EE2CF2CD221C6D2100B40EE4 /* EpisodesTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 				EE4AFB36221A020C00536FC5 /* LaunchScreen.storyboard in Resources */,
 				EE4AFB33221A020C00536FC5 /* Assets.xcassets in Resources */,
 				EE4AFB4C221A13B400536FC5 /* CollectionViewCell.xib in Resources */,
+				EE2CF2CF221C6D2100B40EE4 /* EpisodesTableViewCell.xib in Resources */,
 				EE4AFB31221A020B00536FC5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +214,7 @@
 				EE4AFB44221A0FA400536FC5 /* Episode.swift in Sources */,
 				EE4AFB53221A5D7F00536FC5 /* SeasonsViewController.swift in Sources */,
 				EE4AFB2C221A020B00536FC5 /* AppDelegate.swift in Sources */,
+				EE2CF2CE221C6D2100B40EE4 /* EpisodesTableViewCell.swift in Sources */,
 				EE4AFB4F221A176300536FC5 /* Extensions.swift in Sources */,
 				EE4AFB51221A493300536FC5 /* DetailViewController.swift in Sources */,
 			);

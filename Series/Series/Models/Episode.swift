@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Episode: Codable {
+struct Episode: Codable { //Model for Episode
     
     let name: String
     let summary: String?
